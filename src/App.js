@@ -53,16 +53,7 @@ function App() {
           <Balloons key={el[1]} color={el[0]} num={el[1]}></Balloons>
         ))}
       </div>
-      <h1
-        style={{
-          fontSize: "20px",
-          color: "red",
-          marginLeft: "-40%",
-          marginTop: "-43%",
-        }}
-      >
-        Empty
-      </h1>
+
       <div
         className="empty"
         style={{
