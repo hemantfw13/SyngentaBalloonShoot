@@ -1,0 +1,52 @@
+.main{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 85%;
+  /* border: 1px solid red; */
+  margin-right: -20%;
+  
+}
+.empty{
+  width: 20%;
+ position: absolute;
+  justify-content: center;
+align-items: center; 
+  left: 20%;
+ bottom: 180px; 
+ background-color: rgb(255, 255, 255);
+ border: 2px solid black;
+ height: 60%;
+ border-radius: 30px;
+ border: 1px solid rgb(49, 206, 13);
+
+}
+.app{
+  position: relative;
+  height: 100vh;
+  background-color: rgb(68, 70, 71);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(50, 4, 70);
+}
+.shoot{
+  width: 20%;
+  height:20%;
+ position: absolute;
+ right: 59%;
+ top: 75%;
+ bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(49, 206, 13);
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
